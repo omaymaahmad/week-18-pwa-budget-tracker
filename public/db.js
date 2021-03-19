@@ -25,3 +25,5 @@ router.post("/api/transaction/bulk", ({body}, res) => {
 // when the app comes online - we need to check the database, get each entry in the db..
 // then send them all to the /api/transaction/bulk and point
 
+// event listener for app coming back online
+window.addEventListener("online", checkDatabase);
