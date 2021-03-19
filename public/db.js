@@ -12,3 +12,16 @@ router.get("/api/transactoin", (req, res) => {
     });
 });
 
+// send them to /api/transaction/bulk 
+router.post("/api/transaction/bulk", ({body}, res) => {
+    Transaction.insertMany(body).then(dbTransaction);
+})
+.catch(err => {
+    res.status(404).json(err);
+});
+
+
+
+// when the app comes online - we need to check the database, get each entry in the db..
+// then send them all to the /api/transaction/bulk and point
+
