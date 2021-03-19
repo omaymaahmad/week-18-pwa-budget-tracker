@@ -22,11 +22,6 @@ self.addEventListener("install", function(event) {
 });
 
 self.addEventListener("fetch", function(event){
-    //implement functionality which will enable all requests coming in on /api routes (if statement)
-        // asttempt tp put it into cache if it fits an api request
-        // if unsuccessful then its going to try to match with something in cache that already exists
-
-    // if its not an api request then we will check the cache to see if we facilitate such a reuest
-    // if the requested url isnt in cache then just return to homepage ("/")
+    
 
 })
