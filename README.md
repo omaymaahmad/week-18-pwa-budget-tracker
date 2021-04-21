@@ -2,7 +2,7 @@
 
 ### What it does:
 
-* Workout Tracker is a budget tracker that lets users view, add and subtract funds. 
+* PWA Budget Tracker is a budget tracker that lets users view, add and subtract funds. 
 
 * Users are able to add expenses and deposists to their budget with or without a connection.
 
